@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup (
     name = 'Sonihi_K',
-    version='0.0.1',
+    version='0.2.0',
     description='nice description',
     author = 'seongji',
     url = 'http://github.com/SonihiK/calc001',
