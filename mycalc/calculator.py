@@ -1,11 +1,16 @@
-def add(a,b):
-    return a+b
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import webbrowser
 
-def subtract(a,b):
-    return a-b
+def open_naver_sports_baseball_schedule():
+    url = "https://sports.news.naver.com/schedule/scoreBoard.nhn?category=mlb&date=20220416"
+    webbrowser.open(url)
 
-def multiply(a,b):
-    return a*b
+open_naver_sports_baseball_schedule()
 
-def divide(a,b):
-    return a/b
+def open_naver_weather():
+    url = "https://search.naver.com/search.naver?sm=top_hty&fbm=1&ie=utf8&query=오늘+날씨"
+    webbrowser.open(url)
+
+open_naver_weather()
